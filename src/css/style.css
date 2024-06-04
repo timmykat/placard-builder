@@ -1,0 +1,41 @@
+.placard {
+    width:1024px;
+}
+
+.placard:nth-child(odd) {
+    margin-bottom: 70px;
+}
+
+.placard:nth-child(even) {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 200px;
+}
+
+header .text {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.datum {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    padding: 2rem 0 0.2rem;
+    border-bottom: solid 2px #666;
+    line-height: 2;
+}
+
+.datum .label {
+    width: 25%;
+}
