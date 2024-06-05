@@ -1,6 +1,7 @@
 const { parse } = require("csv-parse");
 const fs = require("fs");
 const util = require("util")
+const extraCards = 20
 
 const processFile = async () => {
   let index = 1000
@@ -18,6 +19,18 @@ const processFile = async () => {
     record.index = index
     records.push(record);
   }
+  for (let i=0; i < extraCards ; i++) {
+    records.push({
+      number: null,
+      first_name: null,
+      last_name: null,
+      full_name: null,
+      marque: null,
+      model: null,
+      year: null
+    })
+  }
+  console.log(records.length, " cards created.")
   return records;
 };
 
