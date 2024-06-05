@@ -35,6 +35,9 @@ header .text {
 
 .datum {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
     font-size: 1.5rem;
     display: flex;
     padding: 2rem 0 0.2rem;
@@ -43,5 +46,9 @@ header .text {
 }
 
 .datum .label {
-    width: 25%;
+    width: 50%;
+}
+
+.datum .value {
+    font-weight: 400;
 }

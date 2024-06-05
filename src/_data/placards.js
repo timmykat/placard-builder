@@ -20,14 +20,9 @@ const processFile = async () => {
     records.push(record);
   }
   for (let i=0; i < extraCards ; i++) {
+    index += 1
     records.push({
-      number: null,
-      first_name: null,
-      last_name: null,
-      full_name: null,
-      marque: null,
-      model: null,
-      year: null
+      index: index
     })
   }
   console.log(records.length, " cards created.")
