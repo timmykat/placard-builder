@@ -1,5 +1,5 @@
 ---
-layout: ./layout.hbs
+layout: ./placard_layout.hbs
 
 ---
 {{#each placards}}
@@ -16,20 +16,16 @@ layout: ./layout.hbs
             </div>
         </header>
         <div class="datum">
-            <span class="label">Entry Number:</span>
-            <span class="value">{{this.index}}</span>
+            <span class="label">Entry Number:</span><span class="value">{{this.index}}</span>
         </div>
         <div class="datum">
-            <span class="label">Category:</span>
-            <span class="value">{{this.category}}</span>
+            <span class="label">Category:</span><span class="value">{{this.category}}</span>
         </div>   
         <div class="datum">
-            <span class="label">Vehicle:</span>
-            <span class="value">{{this.year}} {{this.marque}} {{this.model}}</span>
+            <span class="label">Vehicle:</span><span class="value">{{this.year}} {{this.marque}} {{this.model}}</span>
         </div>
         <div class="datum">
-            <span class="label">Owner:</span>
-            <span class="value">{{this.full_name}}</span>
+            <span class="label">Owner:</span><span class="value">{{this.full_name}}</span>
         </div>
     </div>
 {{/each}}

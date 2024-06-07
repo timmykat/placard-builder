@@ -1,0 +1,26 @@
+---
+layout: ./label_layout.hbs
+---
+{{#each labels}}
+<div class="label-wrapper">
+    <div class="label">
+        <div class="content">
+            <div class="info">
+                <div class="name">{{this.registrant}}</div>
+                <div class="status">{{formatStatus this.fee_status}}</div>
+                {{#if this.donation}}
+                    <div class="thank-you">Thanks for your donation!</div>
+                {{/if}}
+            </div>
+            <div class="banner">
+                <img src="/img/placard_banner.png" />
+            </div>
+        </div>
+        <div class="ident">
+            <div class="title">Citroën Rendezvous 2024</div>
+            <div class="loc">Saratoga Springs, NY</div>
+            <div class="pep">Enjoy & have fun!</div>
+        </div>
+    </div>
+</div>
+{{/each}}
