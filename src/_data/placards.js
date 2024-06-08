@@ -7,7 +7,7 @@ const processFile = async () => {
   let index = 1000
   const records = [];
   const parser = fs
-    .createReadStream("src/_data/vehicles_data.csv")
+    .createReadStream("src/_data/vehicles_data_final.csv")
     .pipe(parse({
       header: true,
       columns: true,

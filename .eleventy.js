@@ -12,6 +12,10 @@ module.exports = function( eleventyConfig ) {
         }
     })
 
+    Handlebars.registerHelper('formatRegistrant', name => {
+        return name.replace(/,/, ',<br>')
+    })
+
     Handlebars.registerHelper('formatStatus', value => {
         if (value === 'paid') {
             return 'Paid - thanks!'

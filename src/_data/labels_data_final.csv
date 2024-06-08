@@ -1,6 +1,7 @@
 last_name,guests,people,fee_status,donation,volunteers
 Adams,2,Mark Adams<br>Sheila,paid,50.0,0
 Agar,2,Dave Agar<br>Linda Agar,paid,50.0,0
+Alva Miras,1,Fernando J Alva Miras,paid,25.0,0
 Anderson,2,Paul Anderson<br>Rose Anderson,paid,850.0,2
 Anderson,3,Dean Anderson<br>Steve Williams<br>Neil Schoenheider,paid,"",0
 Apfelbaum,2,John Apfelbaum<br>Lisa Argauer,paid,"",0
@@ -12,17 +13,18 @@ Boudrias,2,Richard Boudrias<br>Louise Hamel,paid,"",0
 Bourgeois,1,Maurice Bourgeois,paid,10.0,0
 Boyle,2,Ben Boyle<br>Elaine Boyle,paid,10.0,0
 Brown,1,Jeffrey Brown,paid,"",0
+Burke,2,Dan Burke<br>John McDermott,150.0,"",0
 Burnham,2,David Burnham<br>Jamie Burnham,paid,150.0,0
 Byrne,1,James Byrne,paid,"",0
 Cavicke,2,Matthew Cavicke<br>Mike Marciano,150.0,2.43,0
 Chennell,1,Nicholas Chennell,paid,2.43,0
-Chirin,0,"",paid,"",0
-Chomitz,1,Jon Chomitz,paid,10.0,0
+Chomitz,2,Jon Chomitz<br>Nancy Chomitz,150.0,10.0,0
 clement,2,nicolas clement<br>Elsa Clement,paid,"",0
 Cossitt-Levy,2,David Cossitt-Levy<br>Daniela Cossitt-Levy,paid,150.0,0
 Cox,2,Michael Cox<br>Joanne Bonadio,paid,"",0
 Crane,1,Tara Crane,paid,"",0
 Crum,2,John Crum<br>Kimberly Crum,paid,4.38,0
+Curlee,2,Steve Curlee<br>Kathy Curlee,paid,"",0
 Delaporte,1,Olivier Delaporte,paid,10.0,0
 dewidt,2,erik dewidt<br>Evelyn Shukat,paid,300.0,0
 Diamond,1,Mark Diamond,paid,"",0
@@ -53,7 +55,6 @@ Kupferschmid ,2,David Kupferschmid <br>Mary Kupferschmid ,paid,10.0,0
 Lachman,2,Robert Lachman<br>Henrietta ,paid,"",2
 Larsen,2,Gert Larsen<br>Jennifer Ley,paid,4.38,2
 LEcuyer,2,Yves LEcuyer<br>Jeanne Lavoie,paid,10.0,0
-Levenson,2,Marc Levenson<br>Jo Anne Murray,150.0,"",0
 Levenson,2,Marc Levenson<br>Jo Levenson,paid,"",0
 Lewis,1,Larry Lewis,paid,"",0
 Long,1,Greg Long,paid,25.0,0
@@ -69,8 +70,10 @@ Moss,2,Michael Moss<br>Brent McPhee,paid,10.0,0
 motte,2,gilles motte<br>Amy Machado,paid,"",0
 Murray,2,Joe Murray<br>Susan Kirby,paid,4.38,0
 Nelson,1,Ken Nelson,paid,10.0,0
+Nelson,1,Karl Nelson,paid,2.43,0
 Newallo ,3,William  Newallo <br>Debra Newallo <br>Tara Newallo ,paid,100.0,0
 Oppermann,5,Thomas Oppermann<br>Joanne Oppermann<br>Jason Oppermann<br>Michael IOppermann<br>Sophia Oppermann,paid,"",0
+Peck,1,Geoffrey Peck,paid,25.0,0
 Pests,1,Craig Pests,75.0,"",0
 Peters,4,Brian Peters<br>Pat Peters <br>Phil Peters <br>Dasha Dare,paid,"",0
 Pickett,6,Andy Pickett<br>Donella Rapier<br>Alex Pickett<br>Linda Hermanson<br>Andulka Sebkova<br>Zdenek Biskup,paid,25.0,0
@@ -87,6 +90,7 @@ Salomon,1,Ralph Salomon,paid,"",0
 Schuenemann,1,Stewart Schuenemann,paid,2.43,0
 Shelton,1,Gary Shelton,paid,25.0,0
 Sotello,1,Roland Sotello,paid,"",0
+Spalding,1,David Spalding,paid,2.43,0
 Stockman,1,Paul Eric Stockman,paid,25.0,0
 Stokes,1,Ian Stokes,paid,2.43,0
 Stone,1,Russell Stone,paid,"",0

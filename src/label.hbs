@@ -6,14 +6,16 @@ layout: ./label_layout.hbs
     <div class="label">
         <div class="content">
             <div class="info">
-                <div class="name">{{this.registrant}}</div>
+                <div class="name">{{this.last_name}}</div>
+                <div class="guests">Citronistas: {{this.guests}}</div>
+                <div class="people">{{{this.people}}}</div>
                 <div class="status">{{formatStatus this.fee_status}}</div>
                 {{#if this.donation}}
-                    <div class="thank-you">Thanks for your donation!</div>
+                    <div class="thank-you">Donor - thanks!</div>
                 {{/if}}
             </div>
             <div class="banner">
-                <img src="/img/placard_banner.png" />
+                <img src="/img/citroen_old_logo.png" />
             </div>
         </div>
         <div class="ident">
