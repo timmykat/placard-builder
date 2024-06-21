@@ -8,7 +8,7 @@ const processFile = async () => {
   let index = 1000
   const records = [];
   const parser = fs
-    .createReadStream("src/_data/" + year + "/labels_data_final.csv")
+    .createReadStream("src/_data/" + year + "/winners.csv")
     .pipe(parse({
       header: true,
       columns: true,
@@ -26,16 +26,7 @@ const processFile = async () => {
       index: index
     })
   }
-  console.log(records.length, " labels created.")
-  if (records.length % 2 === 1) {
-    index += 1
-    records.push({
-      index: index,
-      last_name: 'PLACEHOLDER',
-      guests: 0,
-      fee_status: '0'
-    })
-  }
+  console.log(records.length, " winner certificates created.")
   return records;
 };
 

@@ -1,0 +1,43 @@
+---
+layout: ./page_layout.hbs
+
+---
+{{#each winners}}
+    <div class="certificate">
+      <header>
+        <div class="text title">
+          People's Choice Award
+        </div>
+      
+        <div class="text category">
+            {{this.Category}}
+        </div>
+      
+          <div class="logo">
+              <img src="/img/citroen_old_logo.png" />
+          </div>
+      </header>
+
+      <div class="winner">
+        <img src="/img/Fleur-de-lis-fill.svg" />
+        <div class="info">
+          <div class="text owner">
+              {{this.Owner}}
+          </div>
+
+          <div class="text vehicle">
+              {{this.Year}} {{this.Make}} {{this.Model}}
+          </div>
+        </div>
+        <img src="/img/Fleur-de-lis-fill.svg" />
+      </div>
+      <div class="event">
+        <div class="text">
+          Citroën Rendezvous
+        </div>
+        <div class="text location">
+          Saratoga Springs 2024
+        </div>
+      </div>
+    </div>
+{{/each}}

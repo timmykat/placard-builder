@@ -1,4 +1,5 @@
 :root {
+    --citroenFont: "Citroen", sans-serif;
     --displayFont: "Poller One", serif;
     --mainFont: "Josefin Sans", sans-serif;
     --funRed: #d02a2a;
@@ -6,9 +7,110 @@
     /* --displayFont: "Lemon", serif; */
 }
 
+@font-face {
+    font-family: 'Citroen';
+    src:
+        local('Citroen'),
+        url('/fonts/Citroen Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Citroen';
+    src:
+        local('Citroen'),
+        url('/fonts/Citroen-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Citroen';
+    src:
+        local('Citroen'),
+        url('/fonts/Citroen Black.otf') format('opentype');
+    font-weight: 800;
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
+}
+
+/* certificate styling */
+.certificate {
+    box-sizing: border-box;
+    height: 8.0in;
+    width: 10.5in;
+    margin: 0.25in;
+    padding: 0.75in 0.75in;
+    font-family: var(--citroenFont);
+    border: solid 20px var(--funRed);
+    border-style: double;
+    page-break-after: always;
+}
+.certificate header {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate header .text {
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--citroenFont);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.certificate header .text.location {
+    font-size: 2rem;
+}
+
+.certificate header img {
+    height: 1.75in;
+    padding: 40px;
+}
+
+.certificate .text {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.certificate .text.title {
+    font-size: 3em;
+}
+
+.certificate .text.category {
+    font-size: 2em;
+}
+
+.certificate .winner {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.certificate .winner .owner {
+    margin-bottom: 0.25in;
+}
+
+.certificate .winner .vehicle {
+    font-size: 1.5em;
+}
+
+.certificate .winner img {
+    padding: 0 0.5in;
+    color:#d02a2a;
+    width: 80px;
+    filter: invert(18%) sepia(62%) saturate(4846%) hue-rotate(354deg) brightness(94%) contrast(76%);  
+}
+
+.certificate .event {
+    margin-top: 0.5in;
 }
 
 /* placard styling */
@@ -29,16 +131,16 @@ header {
     align-items: center;
 }
 
-header img {
+.placard header img {
     height: 1.5in;
     padding: 20px;
 }
 
-header .text {
+.placard header .text {
     text-align: center;
     font-size: 1.8rem;
-    font-family: var(--displayFont);
-    font-weight: 400;
+    font-family: var(--citroenFont);
+    font-weight: 800;
     font-style: normal;
 }
 

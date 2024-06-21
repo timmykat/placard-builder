@@ -3,6 +3,7 @@ module.exports = function( eleventyConfig ) {
     eleventyConfig.setLibrary( 'hbs', Handlebars );
     eleventyConfig.addPassthroughCopy( 'src/img' );
     eleventyConfig.addPassthroughCopy( 'src/css' );
+    eleventyConfig.addPassthroughCopy( 'src/fonts' );
 
     Handlebars.registerHelper('formatDonation', value => {
         if (value) {

@@ -2,12 +2,13 @@ const { parse } = require("csv-parse");
 const fs = require("fs");
 const util = require("util")
 const extraCards = 20
+const year = (new Date()).getFullYear()
 
 const processFile = async () => {
   let index = 1000
   const records = [];
   const parser = fs
-    .createReadStream("src/_data/vehicles_data_final.csv")
+    .createReadStream("src/_data/" + year + "/vehicles_data_final.csv")
     .pipe(parse({
       header: true,
       columns: true,
