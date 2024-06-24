@@ -67,7 +67,7 @@ html, body {
 }
 
 .certificate header img {
-    height: 1.75in;
+    height: 2.25in;
     padding: 40px;
 }
 
@@ -95,7 +95,7 @@ html, body {
 }
 
 .certificate .winner .owner {
-    margin-bottom: 0.25in;
+    margin-bottom: 0.10in;
 }
 
 .certificate .winner .vehicle {
